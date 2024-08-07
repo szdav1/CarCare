@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+    <ApplicationSettings>
+        <LookAndFeel>javax.swing.plaf.nimbus.NimbusLookAndFeel</LookAndFeel>
+        <Language>English.xml</Language>
+    </ApplicationSettings>
+</Settings>
