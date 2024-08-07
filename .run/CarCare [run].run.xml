@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="CarCare [run]" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="com.silentsoft.app.run.Main" />
+    <option name="MAIN_CLASS_NAME" value="com.silentsoft.application.run.Main" />
     <module name="CarCare.main" />
     <method v="2">
       <option name="Make" enabled="true" />

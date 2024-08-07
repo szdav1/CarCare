@@ -1,4 +1,4 @@
-package com.silentsoft.app.window;
+package com.silentsoft.application.window;
 
 import java.awt.BorderLayout;
 import java.awt.Image;
@@ -6,9 +6,10 @@ import java.awt.Image;
 import javax.swing.JFrame;
 import javax.swing.JLayeredPane;
 
+import com.silentsoft.application.window.parts.Container;
 import com.silentsoft.util.appdata.Dimensions;
 
-public abstract class AbstractWindow extends JFrame {
+public abstract class AbstractWindow extends JFrame implements Container {
 	protected final JLayeredPane contentPane;
 
 	protected AbstractWindow(final Image image, final String title) {

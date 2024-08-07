@@ -2,8 +2,8 @@ package com.silentsoft.util.config;
 
 import javax.swing.UIManager;
 
-import com.silentsoft.app.dialogs.ErrorMessage;
-import com.silentsoft.app.run.AppInstance;
+import com.silentsoft.application.dialogs.ErrorMessage;
+import com.silentsoft.application.run.AppInstance;
 import com.silentsoft.util.appdata.AppData;
 import com.silentsoft.util.appdata.Log;
 import com.silentsoft.util.appdata.RuntimeOnlyLog;
@@ -45,7 +45,7 @@ public final class Configurator {
 			UIManager.setLookAndFeel(Settings.get(AppData.XMLData.LOOK_AND_FEEL_SETTING));
 		}
 		catch (Exception exc) {
-			AppInstance.errorDialog.displayErrorMessage(exc, ErrorMessage.LOOK_AND_FEEL_ERROR, Log.CONFIGURATION_ERROR);
+			AppInstance.errorDialog.displayErrorMessage(exc, ErrorMessage.LOOK_AND_FEEL_ERROR, Log.LOOK_AND_FEEL_ERROR);
 		}
 	}
 
