@@ -1,4 +1,7 @@
 /.gradle/ 
 /.idea/ 
-/build/ 
+/build/
+/bats
 CarCare.iml
+/.run/export.run.xml
+/.run/share.run.xml
