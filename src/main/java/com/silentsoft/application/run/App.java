@@ -1,6 +1,6 @@
 package com.silentsoft.application.run;
 
-import com.silentsoft.application.window.Window;
+import com.silentsoft.application.view.window.Window;
 import com.silentsoft.util.appdata.AppData;
 import com.silentsoft.util.appdata.Log;
 import com.silentsoft.util.appdata.RuntimeOnlyLog;

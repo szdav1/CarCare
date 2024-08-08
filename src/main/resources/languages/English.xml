@@ -9,6 +9,6 @@
     </Words>
 
     <Words for="ToolBar">
-        <Management>Management</Management>
+        <ControlButton>Control Panel</ControlButton>
     </Words>
 </English>

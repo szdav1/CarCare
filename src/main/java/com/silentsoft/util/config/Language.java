@@ -2,6 +2,7 @@ package com.silentsoft.util.config;
 
 import java.util.HashMap;
 
+import com.silentsoft.util.appdata.AppData;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 
@@ -15,6 +16,9 @@ public final class Language {
 	}
 
 	public static String get(final String key) {
+		if (key.equalsIgnoreCase(AppData.IGNORE_TEXT_KEY))
+			return "";
+
 		if (!map.containsKey(key))
 			return "Lookup Failed!";
 

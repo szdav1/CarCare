@@ -4,7 +4,7 @@
         <!--com.sun.java.swing.plaf.windows.WindowsLookAndFeel-->
         <!--javax.swing.plaf.nimbus.NimbusLookAndFeel-->
         <!--com.sun.java.swing.plaf.motif.MotifLookAndFeel-->
-        <LookAndFeel>javax.swing.plaf.nimbus.NimbusLookAndFeel</LookAndFeel>
+        <LookAndFeel>javax.swing.plaf.metal.MetalLookAndFeel</LookAndFeel>
         <Language>English.xml</Language>
     </ApplicationSettings>
 </Settings>

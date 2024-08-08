@@ -1,4 +1,4 @@
-package com.silentsoft.application.dialogs;
+package com.silentsoft.application.view.dialogs;
 
 import java.awt.GridLayout;
 

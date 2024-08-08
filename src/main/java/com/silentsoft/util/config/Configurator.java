@@ -2,7 +2,7 @@ package com.silentsoft.util.config;
 
 import javax.swing.UIManager;
 
-import com.silentsoft.application.dialogs.ErrorMessage;
+import com.silentsoft.application.view.dialogs.ErrorMessage;
 import com.silentsoft.application.run.AppInstance;
 import com.silentsoft.util.appdata.AppData;
 import com.silentsoft.util.appdata.Log;

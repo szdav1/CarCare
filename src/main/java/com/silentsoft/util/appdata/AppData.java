@@ -9,6 +9,7 @@ import lombok.AllArgsConstructor;
 public final class AppData {
 	public static final String RUNNING_OS_NAME = System.getProperty("os.name");
 	public static final String DEFAULT_LOOK_AND_FEEL_NAME = UIManager.getLookAndFeel().getName();
+	public static final String IGNORE_TEXT_KEY = "<none>";
 
 	public static final class XMLData {
 		public static final String SETTINGS_FOLDER_PATH = "/settings/";
